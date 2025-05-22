@@ -14,7 +14,7 @@ This MATLAB package implements a **Bayesian trans-dimensional Markov chain Monte
 ```
 bayes_sbt_inference/
 │
-├── run_example.m            Main script: load data → run sampler → plot results
+├── runExample.m             Main script: load data → run sampler → plot results
 │
 ├── data/                    Observation data
 │   ├── obs_data_real.mat
@@ -47,7 +47,7 @@ bayes_sbt_inference/
 │   └── postProcessMaxDensz.m
 │
 ├── README.md                (this file)
-└── LICENSE                  MIT License (or your chosen license)
+└── LICENSE                  MIT License
 ```
 
 ---
@@ -69,7 +69,7 @@ bayes_sbt_inference/
 
 2. **Open MATLAB**, change folder to the project root, and run:
    ```matlab
-   run_example
+   runExample
    ```
 
    This will:
@@ -82,10 +82,10 @@ bayes_sbt_inference/
 
 ## ⚙️ Configuration
 
-Inside **`run_example.m`** you can adjust:
+Inside **`runExample.m`** you can adjust:
 
 - **Data file**: switch between real and synthetic  
-- **Sampler settings**: number of samples, burn-in, model bounds, priors  
+- **Sampler settings**: number of samples, burn-in, model bounds, priors etc. 
 
 ---
 
@@ -116,7 +116,7 @@ All figures match those presented in the published paper.
 
 After any change, rerun:
 ```matlab
-run_example
+runExample
 ```
 to ensure everything works end-to-end.
 
